@@ -1,0 +1,46 @@
+div{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    animation-name: demo;
+    animation-duration: 20s;
+    float:left;
+    position: relative;
+    background-image: url(waterfalls.jpg);
+}
+
+@keyframes demo{
+    10%{
+        background-color: blue;
+        border-radius: 100%;
+        left: 0%;
+        opacity: 0.1;
+    }
+    20%{
+        background-color: brown;
+        border-radius: 90%
+    }
+    40%{
+        background-color: purple;
+        border-radius: 70%;
+        left: 60%;
+    }
+    80%{
+        background-color: goldenrod;
+        border-radius: 60%;
+        opacity: 1;
+    }
+    /* from{
+        width: 40px;
+        height: 40px;
+        background-color: blue;
+        right: 10%;
+    }
+    to{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 100%;
+        right: 90%;
+    } */
+}
