@@ -1,0 +1,38 @@
+div{
+    color: aqua;
+}
+#d1{
+    color: blue;
+}
+.divclass{
+    color: coral;
+}
+
+#H{
+    color: red;
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+#C{
+    color: blue;
+    background-color: greenyellow;
+    width: 150px;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#F{
+    color: purple;
+    background-color: burlywood;
+    width: 250px;
+    height: 30px;
+    font-family: serif;
+    font-size: 25px;
+}
+body{
+    background-image: url(SampleImage.jpg);
+    background-size: cover;
+}
