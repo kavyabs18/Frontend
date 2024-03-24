@@ -1,0 +1,77 @@
+#block{
+    margin-top: 100px;
+    width: 350px;
+    height: max-content;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#top{
+    width: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: blue;
+}
+#photo{
+    width: 350px;
+}
+#pic{
+    margin-bottom: -30px;
+    width: 120px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 100%;
+    background: white;
+}
+#pic::before{
+    border-radius: 100%;
+    border: 50px blue;
+}
+#content{
+    margin-top: 40px;
+    
+}
+#logo #git{
+    width: 70px;
+}
+#logo #linkedin{
+    width: 40px;
+}
+#buttons button{
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-style: none;
+}
+#bottom{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#icons{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+#like{
+    width: 20px;
+}
+#comment{
+    width: 20px;
+}
+#share{
+    width: 20px;
+}
+span{
+    opacity: 0.3;
+    font-size: 25px;
+}
